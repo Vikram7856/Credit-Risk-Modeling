@@ -111,11 +111,11 @@ Performed in two modes:
 ### **1. Ordinal Encoding for EDUCATION**
 Mapped according to academic hierarchy:
 
-SSC → 1
-12TH → 2
-GRADUATE / UNDER GRADUATE / PROFESSIONAL → 3
-POST-GRADUATE → 4
-OTHERS → 1
+#### SSC → 1
+#### 12TH → 2
+#### GRADUATE / UNDER GRADUATE / PROFESSIONAL → 3
+#### POST-GRADUATE → 4
+#### OTHERS → 1
 
 
 ### **2. One-Hot Encoding**
