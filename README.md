@@ -56,3 +56,29 @@ This dataset contains **detailed behavioural indicators, delinquency metrics, en
 **Purpose:**  
 These features capture **current credit behaviour**, enquiry patterns, repayment performance, demographic details, and income stability — all of which are essential for predicting credit risk.
 
+## Data Preprocessing and Feature Engineering
+
+A crucial part of the workflow involves rigorous data cleaning and preparation. This includes handling missing or invalid values, correcting data inconsistencies, and merging datasets from multiple sources. The project implements advanced statistical feature selection techniques such as:
+
+- **Chi-Square tests** for categorical variables  
+- **Sequential VIF** to control multicollinearity  
+- **ANOVA** to identify numerical predictors that differentiate risk classes  
+
+These steps ensure that only meaningful, stable, and predictive features are included in the modelling stage.
+
+---
+
+## Building Machine Learning Models for Credit Risk
+
+The modelling phase incorporates multiple algorithms—**Random Forest**, **XGBoost**, and **Decision Trees**—to compare performance and identify the most effective model. The pipeline-based architecture ensures clean separation of preprocessing, encoding, scaling, and model training, making the workflow scalable and production-ready.
+
+---
+
+## Evaluation and Interpretation of Credit Risk Models
+
+The project demonstrates comprehensive model evaluation using metrics such as **accuracy**, **precision**, **recall**, and **F1-scores** across risk classes. Interpretation focuses on translating model outputs into actionable insights for credit risk teams. These insights support:
+
+- Risk segmentation  
+- Approval strategies  
+- Credit limit assignment  
+- Overall portfolio risk management  
