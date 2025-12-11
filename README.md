@@ -76,9 +76,5 @@ The modelling phase incorporates multiple algorithms—**Random Forest**, **XGBo
 
 ## Evaluation and Interpretation of Credit Risk Models
 
-The project demonstrates comprehensive model evaluation using metrics such as **accuracy**, **precision**, **recall**, and **F1-scores** across risk classes. Interpretation focuses on translating model outputs into actionable insights for credit risk teams. These insights support:
+The project demonstrates comprehensive model evaluation using metrics such as **accuracy**, **precision**, **recall**, and **F1-scores** across risk classes.
 
-- Risk segmentation  
-- Approval strategies  
-- Credit limit assignment  
-- Overall portfolio risk management  
