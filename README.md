@@ -1,4 +1,4 @@
-# **Credit Risk Modelling – End-to-End Machine Learning Project**
+# **Credit Risk Modelling**
 
 This project demonstrates a complete, end-to-end **Credit Risk Modelling** pipeline built using statistical techniques and machine learning. It processes and models two real-world credit datasets containing **51,000+ customers** and more than **80 credit bureau, enquiry, and behavioural attributes**.  
 The goal is to classify each customer into **risk segments (P1–P4)** and enable lending teams to make **data-driven credit decisions**.
