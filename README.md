@@ -1,6 +1,9 @@
 # Project Description
 
-This project demonstrates a complete, end-to-end **Credit Risk Modelling** pipeline built using statistical methods and machine learning. It uses two structured datasets — **case_study1.csv** and **case_study2.csv** — containing over **51,000 customer records** and more than **80 credit bureau and behavioural variables**. Together, these datasets provide a comprehensive view of customer credit profiles, enabling the model to classify borrowers into risk categories (P1–P4) and support data-driven lending decisions.
+This project demonstrates a complete, end-to-end **Credit Risk Modelling** pipeline built using statistical methods and machine learning. It uses two real-world credit datasets consisting of over **51,000 customer records** and more than **80 credit bureau and behavioral features**. The goal is to classify customers into distinct credit risk categories (P1–P4) and help financial institutions make data-driven lending decisions.
+
+The data includes critical credit attributes such as **trade-line history**, **delinquencies**, **enquiries**, **credit utilization**, **product usage flags**, and **time-based credit performance indicators**. These features enable robust modelling of borrower behaviour and accurate prediction of future credit risk.
+
 
 ---
 
