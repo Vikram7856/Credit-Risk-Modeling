@@ -135,3 +135,47 @@ Applied selectively to:
 - `Time_With_Curr_Empr`  
 
 
+
+## Model Development
+
+Three machine learning algorithms were trained and compared.
+
+### **Random Forest**
+- **Accuracy:** ~0.76
+
+### **Decision Tree**
+- **Accuracy:** ~0.71
+
+### **XGBoost (Base Model)**
+- **Accuracy:** ~0.72  
+- Selected as the final model due to superior generalisation and multiclass performance.
+
+---
+
+## 7. Hyperparameter Tuning (GridSearchCV)
+
+Hyperparameters tuned:
+
+- `learning_rate`
+- `max_depth`
+- `colsample_bytree`
+- `n_estimators`
+- `alpha` (L1 regularization)
+
+Performed using **3-fold cross-validation**.
+
+### **Best Results**
+
+- **Best CV Accuracy:** `0.7787`
+- **Test Accuracy:** `0.7795`
+
+### **Weighted Metrics**
+
+| Metric      | Score     |
+|-------------|-----------|
+| Precision   | 0.7594    |
+| Recall      | 0.7795    |
+| F1 Score    | 0.7647    |
+
+
+
